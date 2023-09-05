@@ -19,6 +19,7 @@ func main() {
 
 	fmt.Println("test content print")
 
+	fmt.Print("aaaaaaaaaaaaaaa")
 	var debug bool
 
 	flag.BoolVar(&debug, "debug", false, "set to true to run the provider with support for debuggers like ")
